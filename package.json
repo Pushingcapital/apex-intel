@@ -1,11 +1,18 @@
 {
-  "name": "@pushingcapital/apex-intel",
+  "name": "apex-intel",
   "version": "1.0.0",
-  "description": "System Capabilities Assessment Tool for the Apex Node",
-  "main": "index.js",
+  "description": "Node.js CLI for Pushing Capital Operational Assessment",
+  "main": "apex.js",
   "bin": {
-    "apex-intel": "./index.js"
+    "apex-intel": "./apex.js"
   },
-  "author": "Pushing Capital",
-  "license": "ISC"
+  "scripts": {
+    "start": "node apex.js"
+  },
+  "keywords": [],
+  "author": "Charles Benedict",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
