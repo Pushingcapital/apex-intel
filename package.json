@@ -1,0 +1,11 @@
+{
+  "name": "@pushingcapital/apex-intel",
+  "version": "1.0.0",
+  "description": "System Capabilities Assessment Tool for the Apex Node",
+  "main": "index.js",
+  "bin": {
+    "apex-intel": "./index.js"
+  },
+  "author": "Pushing Capital",
+  "license": "ISC"
+}
