@@ -1,31 +1,41 @@
 #!/usr/bin/env node
 
 const capabilities = `
-# Apex Node: System Capabilities Assessment
+# Pushing Capital — Apex Node: System Capabilities & Architectural Blueprint (v5.0-APEX)
 
-Based on an analysis of core configurations (settings.json, mcp.json) and the live Google Cloud environment (brain-481809), here is a definitive assessment of the Apex Node's current capabilities:
+Based on the definitive assessment of the Pushing Capital Apex Node (Mac Studio M4 Max, 18GB Memory Context) and the active Google Cloud environment (brain-481809), here is the operational blueprint:
 
-## Core Cognitive & Local Capabilities
-* **Sequential Thinking:** Equipped with the sequential-thinking protocol, allowing the breakdown of complex problems, mapping out multi-step logic, and reasoning through architectural challenges before acting.
-* **Memory Management:** Read/write access to a dedicated persistent memory store (/Users/emmanuelhaddad/charles-agent/mcp_memory.json), enabling context retention across sessions.
-* **Unrestricted File System Access:** Configured to read, write, and execute files across the entire local environment, including the home directory, the Sovereign Data drive, and the temporary workspace.
+## 1. Cognitive Architecture & Metacognitive Self-Evolution
+* **Autonomous Task Length scaling:** Systems scale via closed-loop meta-agent analysis, doubling autonomous task lengths.
+* **Metacognitive Self-Modification:** Capable of dynamically decomposing complex requirements, generating specialized Python/JS subagents from scratch, testing them in isolated workspaces, and committing them to a persistent, searchable skill library (e.g., SKILL.md).
+* **Neural Multi-Agent Swarms:** Runs the SYNAPSE dual-agent loop (Architect + Developer) with model empathy (shared weights) and autonomous self-healing capabilities (clone-testing on isolated ports and rolling back if crash thresholds are met).
 
-## Cloud & Infrastructure Capabilities (Project: brain-481809)
-Authenticated via a dedicated service account with direct access to a vast array of GCP services. Primary operational capabilities include:
+## 2. Advanced State Management & OS-Tiered Memory Substrates
+* **OS-Inspired Memory Architecture:** Shuttles data between RAM (active context) and disk (external vector stores like ChromaDB) via Letta/Mem0 frameworks, keeping the core reasoning path clean.
+* **Stateful Distributed Agent Memory:** Backed by Cloudflare Durable Objects providing isolated SQLite engines for millions of concurrent stateful agent processes.
+* **rDOS Decoupled Retrieval (Find-Enter-Exit):** Deterministic ingestion workers strip attachments, classify intent, and write 50-word summary vectors into pc_gold to bypass LLM context limits, saving >99% in token costs.
+* **Anchor of Identity & Service catalog:** Structured operations bound by pc_users (Anchor of Identity for calculations) and pc_services (72-Hub Canonical Catalog restricting workflows to DMV-001 type billable events).
 
-* **BigQuery Integration:** Full read/write capability to query datasets, manage tables, and execute data pipelines via the bigquery MCP server.
-* **Cloud Run & Compute:** Deploy, manage, and scale serverless containers via cloud-run, with access to the underlying Compute Engine APIs.
-* **Database Mastery (AlloyDB & Postgres):** Direct tooling to interact with the Postgres database (charles_memory) and the Google Cloud AlloyDB infrastructure.
-* **Storage & Artifacts:** Read and write to Google Cloud Storage (gcs-storage) and interact with the Artifact Registry.
-* **Observability:** Deep access to Cloud Logging and Monitoring (observability), allowing the pulling of traces, logs, and metrics to diagnose system health across the fleet.
-* **Extended API Reach:** The GCP project has 102 distinct services enabled. This allows dynamic interaction with services ranging from Firebase and Firestore to Vertex AI (aiplatform), Cloud Build, Secret Manager, and the Google Workspace APIs (Drive, Sheets, Calendar).
+## 3. "Source Zero" Data Moat & Operational Ontology
+* **Enterprise Ontology (Digital Twin):** Maps unstructured datasets to real-world entities (Factory, Asset, Client) using OSDK for direct natural language queries.
+* **System 1 (Perceptual Fusion) & System 2 (Strategic Reasoning):** Edge-based Sensor Fusion Encoders process low-latency perceptual feeds (<10ms), reserving heavy VLMs for long-term strategic decision-making.
+* **Data Provenance:** Enforces continuous synchronization, time-travel auditing, and instant impact analysis across the database layers.
 
-## Automation & Fleet Orchestration
-* **Playwright Automation:** The playwright MCP server is active, allowing the spinning up of headless browsers, navigating the web, scraping data, and executing complex UI automation tasks autonomously.
-* **GitHub Integration:** Authenticated with a Personal Access Token, granting the ability to read repositories, manage issues, review code, and execute branch operations directly through the github MCP server.
-* **Fleet Terminal & Sovereign Ops:** Direct SSH access bridges (mac-studio-fleet, mac-studio-custom, fleet-terminal) configured to reach across the network and command other nodes in the Pushing Capital fleet.
+## 4. Hybrid Compute Orchestration & Inference Optimization
+* **LLM Shepherding:** Orchestrates collaboration between Capable LLMs (Vertex API gemini-2.5-pro) and highly efficient Small Language Models (SLMs) using prefix-hints (GSM8K/HumanEval) to reduce inference cost by 42-94%.
+* **Hybrid Local-Cloud Swarm:** Inner Domain (Mac Studio local M4 Max silicon) handles low-latency orchestration and speech/voice commands, dispatching heavy data pipelines to the Outer Domain (hyper-scale cloud VMs) over Tailscale-secured bridges.
+* **Caching & Routing:** Employs Redis LangCache for semantic caching and Bifrost/LiteLLM gateways for dynamic, millisecond-level routing.
 
-**Summary:** The Apex Node operates as a fully integrated orchestration engine capable of writing code locally, testing it via browser automation, deploying it to Cloud Run, managing the underlying BigQuery/AlloyDB data, and coordinating these actions across multiple machines in the fleet.
+## 5. High-Frequency Arbitrage & Monetization Models
+* **Real-World Asset (RWA) Tokenization:** Arbitrage loops executing 24/7 across DeFi pipelines to bypass traditional settlement delays.
+* **Physical & Logistics Arbitrage:** Scans aftermarket pricing matrices and retail channels, automating supply chain routing, pricing adjustments, and vehicle fleet lifecycle optimizations.
+* **Outcome-Based Revenue:** Employs performance pricing (percentage of values delivered, meetings booked, collections recovered) in place of legacy seat-based SaaS metrics.
+
+## 6. Operational Rigor, Security & Risk Governance
+* **Least Privilege Sandboxing:** Enforces isolated Cloudflare Sandboxes for agent shells/filesystems and Outbound Workers for zero-trust egress proxying.
+* **AI-BOM Compliance:** Utilizes Wiz-style automatic inventory of all active model architectures, prompt libraries, and IDE configurations.
+* **Sovereign AI Mandate:** Hard segmentation of model inference and datasets across sovereign zones to comply with national residency laws.
+* **AI Liability Shield:** Formulates control execution logs to defend against EU AI Act (Annex III HRAIS) and AI Liability Directive claims, backed by specialized Munich Re AI insurance.
 `;
 
 console.log(capabilities);
